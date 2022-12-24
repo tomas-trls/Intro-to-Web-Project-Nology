@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+$primary-color: #394167;
+$secondary-color: #FFFDF8;
+$tertiary-color: #F2EDB9;
+
+$color-blue: #19BAF1;
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: $primary-color
+}
+
+body{
+  background-color: $secondary-color;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 22.5px;
+}
+
+p {
+  font-size: 18px;
+  span {
+    font-weight: 500;
+  }
+}
+
+h1, h3 {
+  font-family: 'Nunito', sans-serif;
+  color: $color-blue;
+}

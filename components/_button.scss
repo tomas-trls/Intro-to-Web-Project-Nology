@@ -1,0 +1,15 @@
+
+.button--active {
+  background-color: $primary-color;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 4px;
+}
+
+.header__button--active {
+  border: 1px solid $primary-color;
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+  color: $primary-color;
+  padding: 10px 25px;
+}

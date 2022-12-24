@@ -1,0 +1,33 @@
+h1 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main__flex__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 25px auto;
+  flex-direction: row-reverse;
+
+  #main__flex__item-2 {
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .main__button{
+      a {
+        display: inline-block;
+        margin-top: 20px;
+      }
+    }
+
+    h2,h3,p {
+      margin: 20px 0;
+    }
+  }
+
+}
