@@ -29,6 +29,28 @@ section {
     width: 150px;
   }
 
+
+  @media screen and (max-width: 768px){
+    flex-direction: column;
+    align-items: center;
+    .section__flex-container__item {
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+      p {
+        width: 50%;
+      }
+    }
+
+    .item-1 {
+      flex-direction: row-reverse;
+    }
+
+    .item-3 {
+      flex-direction: row-reverse;
+    }
+  }
+
 }
 
 .section__button {

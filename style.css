@@ -67,6 +67,17 @@ footer {
   width: 100%;
   margin-top: 50px;
 }
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  footer a {
+    display: block;
+  }
+}
 
 header {
   height: 10vh;
@@ -140,6 +151,26 @@ section h2 {
 .section__flex-container .section__flex-container__item__image {
   height: 140px;
   width: 150px;
+}
+@media screen and (max-width: 768px) {
+  .section__flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section__flex-container .section__flex-container__item {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .section__flex-container .section__flex-container__item p {
+    width: 50%;
+  }
+  .section__flex-container .item-1 {
+    flex-direction: row-reverse;
+  }
+  .section__flex-container .item-3 {
+    flex-direction: row-reverse;
+  }
 }
 
 .section__button {
