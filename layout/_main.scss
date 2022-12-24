@@ -11,6 +11,8 @@ h1 {
   width: 80%;
   margin: 25px auto;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
+
 
   #main__flex__item-2 {
     width: 50%;
@@ -29,4 +31,11 @@ h1 {
     }
   }
 
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    #main__flex__item-2 {
+      text-align: center;
+      width: 100%;
+    }
+  }
 }

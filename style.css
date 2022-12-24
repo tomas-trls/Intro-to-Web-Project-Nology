@@ -90,6 +90,7 @@ h1 {
   width: 80%;
   margin: 25px auto;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 .main__flex__container #main__flex__item-2 {
   width: 50%;
@@ -103,6 +104,15 @@ h1 {
 .main__flex__container #main__flex__item-2 h2, .main__flex__container #main__flex__item-2 h3, .main__flex__container #main__flex__item-2 p {
   margin: 20px 0;
 }
+@media screen and (max-width: 768px) {
+  .main__flex__container {
+    justify-content: center;
+  }
+  .main__flex__container #main__flex__item-2 {
+    text-align: center;
+    width: 100%;
+  }
+}
 
 section h2 {
   width: 100%;
@@ -111,7 +121,7 @@ section h2 {
 }
 
 .section__flex-container {
-  width: 70%;
+  width: 80%;
   margin: 50px auto;
   display: flex;
   justify-content: space-around;
