@@ -6,6 +6,8 @@
 
 body {
   background-color: #FFFDF8;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -56,7 +58,18 @@ h1, h3 {
   width: 150px;
 }
 
+footer {
+  background-color: #F2EDB9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  margin-top: 50px;
+}
+
 header {
+  height: 10vh;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -79,7 +92,6 @@ h1 {
   flex-direction: row-reverse;
 }
 .main__flex__container #main__flex__item-2 {
-  border: 1px solid red;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -96,4 +108,32 @@ section h2 {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+.section__flex-container {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section__flex-container .section__flex-container__item {
+  margin: 25px 0;
+  width: 225px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+.section__flex-container .section__flex-container__item__image {
+  height: 140px;
+  width: 150px;
+}
+
+.section__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

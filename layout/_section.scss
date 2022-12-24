@@ -5,3 +5,34 @@ section {
     text-align: center;
   }
 }
+
+.section__flex-container {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .section__flex-container__item{
+    margin: 25px 0;
+    width: 225px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .section__flex-container__item__image{
+    height:140px;
+    width: 150px;
+  }
+
+}
+
+.section__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
